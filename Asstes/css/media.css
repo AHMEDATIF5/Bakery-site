@@ -1,0 +1,288 @@
+/**** Responsive Design  *****/
+@media screen and (max-width:992px) /* nav bar */
+{
+    .welcome .nav ul
+    {
+        display: none;
+        float: none;
+    }
+    .welcome .nav ul li 
+    {
+        display: block;
+    }
+    .welcome .nav ul a:hover
+    {
+        background-color: white;
+        color: #000;
+    }
+    .welcome .nav label 
+    {
+        display: block;
+    }
+    .welcome .nav .logo
+    {
+        float: none;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width:1200px) 
+{
+    .welcome .nav ul li
+    {
+        padding: 17px 0px;
+    }
+    .welcome .nav ul li a
+    {
+        padding: 10px 10px;
+    }
+
+    /* who we are section  */
+    .who-we-are .we
+    {
+        padding-top: 0px;
+    }
+    .who-we-are .photo
+    {
+        padding-top: 50px;
+    }
+
+}
+
+@media screen and (min-width:768px) and (max-width: 992px) /* Medium devices  */
+{
+    .welcome .main h1
+    {
+        font-size: 60px;
+    }
+    .welcome .main .p1,.welcome .main .p2
+    {
+        font-size: 20px;
+    }
+
+/* who we are section  */
+.who-we-are .we
+    {
+        padding-top: 0px;
+    }
+    .who-we-are .photo
+    {
+        padding-top: 70px;
+    }
+    .who-we-are .we ul li i
+    {
+        font-size: 16px;
+    }
+    .who-we-are .we ul li
+    {
+        padding-bottom: 10px;
+    }
+    .who-we-are .we p
+    {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    /* our location section  */
+    
+    .our-location .location {
+        padding-top: 50px;
+    }
+    .our-location .location .p-1,.our-location .location .p-2
+    {
+        line-height: 25px;
+    }
+    .our-location .image
+    {
+        padding-top: 85px;
+    }
+
+}
+
+@media screen and (min-width:576px) and (max-width:767px) /* Small devices  */
+{
+    .welcome .main h1
+    {
+        font-size: 45px;
+    }
+    .welcome .main .p1,.welcome .main .p2
+    {
+        font-size: 17px;
+    }
+    .welcome .main button
+    {
+        padding: 10px 15px;
+        margin-top: 40px;
+    }
+    .welcome .main .btn2
+    {
+        padding: 10px 13px;
+    }
+        /* who we are section  */
+
+        .who-we-are .photo
+        {
+            float: none;
+            margin: auto;
+            width: 100%;
+        }
+        .who-we-are .we
+        {
+            float: none;
+            margin: auto;
+            width: 100%;
+        }
+        .who-we-are .we h2
+        {
+            text-align: center;
+        }
+        .who-we-are
+        {
+            margin-bottom: 0px;
+        }
+
+        /* our location  */
+
+        .our-location .location
+        {
+            float: none;
+            margin: auto;
+            width: 100%;
+        }
+        .our-location .location h2
+        {
+            text-align: center;
+        }
+        .our-location .image
+        {
+            float: none;
+            margin: auto;
+            width: 100%;
+        }
+
+        /* our baking  */
+        .our-baking .card
+        {
+            padding: 0 5px;
+        }
+        .our-baking .card h3
+        {
+            font-size: 21px;
+        }
+        .our-baking p 
+        {
+            display: none;
+        }
+        /* contact information section  */
+        .contact-information .information
+        {
+            float: none;
+            margin: auto;
+            width: 100%;
+        }
+        .contact-information .map
+        {
+            float: none;
+            margin: auto;
+            width: 100%;
+        }
+        /* footer  */
+        .footer
+        {
+            display: none;
+        }
+
+    }
+
+    @media screen and (max-width:575px) /* xs Small devices  */
+{
+    .welcome .main h1
+    {
+        font-size: 35px;
+    }
+    .welcome .main .p1,.welcome .main .p2
+    {
+        font-size: 17px;
+    }
+    .welcome .main button
+    {
+        padding: 10px 15px;
+        margin-top: 40px;
+    }
+    .welcome .main .btn2
+    {
+        padding: 10px 13px;
+    }
+        /* who we are section  */
+
+        .who-we-are .photo
+        {
+            float: none;
+            margin: auto;
+            width: 100%;
+        }
+        .who-we-are .we
+        {
+            float: none;
+            margin: auto;
+            width: 100%;
+        }
+        .who-we-are .we h2
+        {
+            text-align: center;
+        }
+        .who-we-are
+        {
+            margin-bottom: 0px;
+        }
+
+        /* our location  */
+
+        .our-location .location
+        {
+            float: none;
+            margin: auto;
+            width: 100%;
+        }
+        .our-location .location h2
+        {
+            text-align: center;
+        }
+        .our-location .image
+        {
+            float: none;
+            margin: auto;
+            width: 100%;
+        }
+
+        /* our baking  */
+        .our-baking .card
+        {
+            padding: 0 5px;
+        }
+        .our-baking .card h3
+        {
+            font-size: 21px;
+        }
+        .our-baking p 
+        {
+            display: none;
+        }
+        /* contact information section  */
+        .contact-information .information
+        {
+            float: none;
+            margin: auto;
+            width: 100%;
+        }
+        .contact-information .map
+        {
+            float: none;
+            margin: auto;
+            width: 100%;
+        }
+        /* footer  */
+        .footer
+        {
+            display: none;
+        }
+
+    }

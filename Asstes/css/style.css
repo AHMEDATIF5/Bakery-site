@@ -1,0 +1,474 @@
+ /* ############# global style ####################### */
+*{
+    margin: 0;
+    padding: 0;
+}
+html {
+    box-sizing: border-box;
+    }
+*, *:before, *:after {
+    box-sizing: inherit;
+    }
+
+.container{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+p{
+    font-family: 'Alegreya', serif;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+h1,h2,h3,h4
+{
+    font-family: 'Alegreya', serif;
+}
+.clear-fix{
+    clear: both;
+}
+
+ /* ################# Welcome section ####################  */
+
+.welcome
+{
+    height: 100vh;
+    background-image: url(../images/drew-coffman-1872.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+
+}
+.welcome .over-lay
+{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.7);
+    overflow: hidden;
+}
+
+ /**** nav bar *** */
+
+
+.welcome .nav
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,.8);
+}
+.nav label 
+{
+    color: wheat;
+    position: absolute;
+    right: 30px;
+    top: 10px;
+    font-size: 30px;
+    display: none;
+}
+.nav input
+{
+    display: none;
+}
+.nav input:checked ~ ul
+{
+    display: block;
+}
+.welcome .nav .logo
+{
+    float: left;
+    padding-top: 5px;
+}
+.welcome .nav .logo img
+{
+    height: 48px;
+}
+.welcome .nav ul
+{
+    float: right;
+    text-align: center;
+}
+.welcome .nav ul li
+{
+    display: inline-block;
+    padding: 17px 10px;
+}
+.welcome .nav ul li a
+{
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 18px;
+    font-family: Alegreya;
+    transition: color .5s;
+}
+.welcome .nav ul li a:hover
+{
+    color:#ae9768 ;
+}
+
+/***** main part  *****/
+
+.welcome .main
+{
+    width: 50%;
+    margin:auto;
+    text-align: center;
+    margin-top: 150px;
+    color: #fff;
+    font-family: Alegreya;
+}
+.welcome .main .p1
+{
+    font-size: 22px;
+    line-height: 1.8em;
+    font-weight: 500;
+}
+.welcome .main h1
+{
+    font-size: 77px;
+    padding-bottom: 30px;
+    line-height: 1.2em;
+    font-weight: 400;
+}
+.welcome .main .p2
+{
+    font-size: 24px;
+    line-height: 1.8em;
+    font-weight: 500;
+}
+.welcome .main button
+{
+    padding: 15px 28px;
+    margin-top: 20px;
+    color: white;
+    font-size: 18px;
+    font-family: 'Alegreya', serif;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 500;
+    border-radius: 4px;
+    transition: background-color .5s , color 1s;
+}
+.welcome .main .btn1
+{
+    background-color:#ae9768 ;
+    border: none;
+    margin-right: 10px;
+}
+.welcome .main .btn2
+{
+    background-color: transparent;
+    border: 2px solid #fff;
+    padding: 13px 26px;
+}
+.welcome .main button:hover
+{
+    background-color: white;
+    color: #222;
+}
+/**** fixed part **** */
+.side
+{
+    position: fixed;
+    right: 0;
+    top: 50%;
+    background-color: #fff;
+    border-radius: 5px 0 0 5px;
+}
+.side i
+{
+    padding: 10px;
+    display: block;
+    color: #777;
+}
+
+/*######################### Who We Are Section ########################## */
+
+.who-we-are
+{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.who-we-are .photo
+{
+    float:left;
+    width: 50%;
+}
+.who-we-are .photo img
+{
+    width: 90%;
+}
+.who-we-are .we
+{
+    float: right;
+    width: 50%;
+    padding-top: 50px;
+}
+.who-we-are .we h2
+{
+    padding-bottom: 30px;
+    font-size: 32px;
+    color: #303030;
+    line-height: 1.4em;
+    font-weight: 400;
+}
+.who-we-are .we p
+{
+    padding-bottom: 30px;
+    font-size: 17px;
+    line-height: 33px;
+    color: #737373;
+    font-weight: 500;
+}
+.who-we-are .we ul li
+{
+    padding-bottom: 20px;
+}
+.who-we-are .we ul li i
+{
+    color: #8e7754;
+    border: 1px solid rgba(0,0,0,.15);
+    padding: 10px;
+    border-radius: 100%;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.who-we-are .we ul li span
+{
+    font-size: 17px;
+    font-family: 'Alegreya', serif;
+    font-family: 'Alegreya Sans', sans-serif;
+    color: #737373;
+    font-weight: 500;
+
+}
+/****************** our location  *********************/
+.our-location
+{
+    background-color: #f8f8f8;
+}
+.our-location .location
+{
+    float: left;
+    width: 45%;
+    padding-top: 100px;
+}
+.our-location .location h2
+{
+    padding-bottom: 30px;
+    font-size: 32px;
+    color: #303030;
+    line-height: 1.4em;
+    font-weight: 400;
+}
+.our-location .location .p-1
+{
+    font-size: 17px;
+    line-height: 33px;
+    color: #737373;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+.our-location .location .p-2
+{
+    font-size: 17px;
+    line-height: 33px;
+    color: #737373;
+    font-weight: 500;
+}
+.our-location .image
+{
+    float: right;
+    width: 50%;
+    padding-top: 70px;
+} 
+.our-location .image img
+{
+    width: 100%;
+}
+/*################### Our Baking  ###################*/
+.our-baking
+{
+text-align: center;
+margin-top: 50px;
+margin-bottom: 50px;
+}
+.our-baking h2
+{
+    padding-bottom: 30px;
+    font-size: 32px;
+    color: #303030;
+    line-height: 1.4em;
+    font-weight: 400;
+}
+.our-baking p
+{
+    font-size: 17px;
+    line-height: 33px;
+    color: #737373;
+    font-weight: 500;
+    padding-bottom: 40px;
+}
+.our-baking .card
+{
+    width: 33.33333%;
+    float: left;
+    padding: 0 20px;
+}
+
+.our-baking .card img
+{
+    width: 100%;
+}
+.our-baking .card h3
+{
+    padding-bottom: 30px;
+    padding-top: 20px;
+    font-size: 25px;
+    color: #303030;
+    line-height: 1.4em;
+    font-weight: 400;
+}
+/*######################## contact information section  ####################*/
+.contact-information
+{
+    background-color: #f8f8f8;
+    padding-top: 50px;
+}
+.contact-information .information
+{
+    width: 50%;
+    float: left;
+}
+.contact-information .map
+{
+    width: 50%;
+    float: right;
+    padding-top: 30px;
+}
+.contact-information .information h2
+{
+    padding-bottom: 30px;
+    font-size: 32px;
+    color: #303030;
+    line-height: 1.4em;
+    font-weight: 400;
+}
+.contact-information .information p
+{
+    font-size: 17px;
+    line-height: 33px;
+    color: #737373;
+    font-weight: 500;
+    padding-bottom: 40px;
+}
+.contact-information .information li
+{
+    padding-bottom: 20px;
+}
+.contact-information .information li i
+{
+    color: #fff;
+    background-color:#8e7754 ;
+    padding: 10px;
+    border-radius: 100%;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.contact-information .information li span 
+{
+    font-size: 17px;
+    font-family: 'Alegreya', serif;
+    font-family: 'Alegreya Sans', sans-serif;
+    color: #737373;
+    font-weight: 500;
+
+}
+/*############################### footer section  ####################################$####*/
+
+.footer
+{
+    padding-top: 100px;
+    background-color: #403d38;
+    height: auto;
+}
+.footer .widget
+{
+    width: 25%;
+    float: left;
+    font-family: "Alegreya Sans";
+}
+.footer .widget h4
+{
+    padding-bottom: 30px;
+    font-size: 27px;
+    color: #fff;
+    line-height: 1.4em;
+    font-weight: 400;
+}
+.footer .widget p
+{
+    font-size: 17px;
+    line-height: 33px;
+    color: #969696;
+    font-weight: 500;
+    padding-bottom: 40px;
+}
+.footer .widget li
+{
+    padding-bottom: 20px;
+}
+.footer .widget span
+{
+    font-size: 17px;
+    font-family: 'Alegreya', serif;
+    font-family: 'Alegreya Sans', sans-serif;
+    color: #737373;
+    font-weight: 500;
+}
+.footer .widget .line
+{
+    width: 85%;
+    height: 1px;
+    background-color: rgba(255,255,255,0.05);
+    margin-bottom: 5px;
+}
+.footer .widget i
+{
+    color: #969696;
+    padding: 10px;
+    font-size: 20px;
+    margin-right: 10px;
+}
+/*********************** last section  *******************/
+.end
+{
+    background-color: #353330;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.end p
+{
+    color: #777;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.end i
+{
+    background-color: #484540;
+    padding: 15px;
+    border-radius: 100%;
+    font-size: 20px;
+    margin: 7px;
+    width: 50px;
+    transition: color .5s;
+}
+.end i:hover{
+    color: red
+}
